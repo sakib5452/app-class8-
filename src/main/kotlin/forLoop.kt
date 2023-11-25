@@ -7,11 +7,27 @@
 //}
 
 
+//fun main(){
+//    for(i in 1..20)
+//        if(i % 2 == 0){
+//            println("Even number: $i")
+//        }
+//}
+
+//fun main(){
+//    for(i in 1..20){
+//        if(i==5){
+//            continue
+//        }
+//        println(i)
+//    }
+//}
+
 fun main(){
-    for(i in 1..20)
-        if(i % 2 == 0){
-            println("Even number: $i")
+    for(i in 1..20){
+        if(i==5){
+        break
         }
+        println(i)
+    }
 }
-
-
